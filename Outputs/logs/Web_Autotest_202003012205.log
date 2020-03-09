@@ -1,0 +1,17 @@
+ Sun01Mar2020220543  INFO test_login.py myclass [ line:37 ] ----这是测试类级别的前置
+ Sun01Mar2020220543  INFO test_login.py mysetup [ line:31 ] ----这是每个测试用例的前置----
+ Sun01Mar2020220554  INFO test_login.py test_success_login [ line:62 ] 登录功能 - 正常场景用例：输入正确的用户名登录成功
+ Sun01Mar2020220554  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Sun01Mar2020220554  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 22:05:54.388739,结束时间为:2020-03-01 22:05:54.406659,一共等待耗时为:0:00:00.017920
+ Sun01Mar2020220554  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Sun01Mar2020220554  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Sun01Mar2020220554  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Sun01Mar2020220554  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 22:05:54.491579,结束时间为:2020-03-01 22:05:54.517736,一共等待耗时为:0:00:00.026157
+ Sun01Mar2020220554  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Sun01Mar2020220554  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Sun01Mar2020220554  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Sun01Mar2020220554  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 22:05:54.568053,结束时间为:2020-03-01 22:05:54.591041,一共等待耗时为:0:00:00.022988
+ Sun01Mar2020220554  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Sun01Mar2020220554  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Sun01Mar2020220618  INFO test_login.py mysetup [ line:33 ] ----这是每个测试用例的后置----
+ Sun01Mar2020220618  INFO test_login.py myclass [ line:39 ] ----这是测试类级别的后置

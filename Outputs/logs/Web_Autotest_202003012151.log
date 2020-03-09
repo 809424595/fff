@@ -1,0 +1,66 @@
+ Sun01Mar2020215142  INFO test_invest.py myclass [ line:36 ] ----这是测试用例类的前置----
+ Sun01Mar2020215142  INFO test_invest.py mysetup [ line:30 ] ----这是每个测试用例的前置----
+ Sun01Mar2020215153  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Sun01Mar2020215153  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 21:51:53.412559,结束时间为:2020-03-01 21:51:53.434499,一共等待耗时为:0:00:00.021940
+ Sun01Mar2020215153  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Sun01Mar2020215153  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Sun01Mar2020215153  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Sun01Mar2020215153  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 21:51:53.523262,结束时间为:2020-03-01 21:51:53.545204,一共等待耗时为:0:00:00.021942
+ Sun01Mar2020215153  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Sun01Mar2020215153  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Sun01Mar2020215153  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Sun01Mar2020215153  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 21:51:53.602052,结束时间为:2020-03-01 21:51:53.618010,一共等待耗时为:0:00:00.015958
+ Sun01Mar2020215153  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Sun01Mar2020215153  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Sun01Mar2020215153  INFO test_invest.py test_invest_success [ line:51 ] 投资功能 - 正常场景用例：投资1000元成功。用户可用余额减少1000，标余额减少1000 
+ Sun01Mar2020215239  INFO basepage.py wait_page_contains_element [ line:51 ] 标页面_获取用户余额 : 等待 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素存在
+ Sun01Mar2020215239  INFO basepage.py wait_page_contains_element [ line:65 ] 等待结束.开始时间为2020-03-01 21:52:39.375299,结束时间为:2020-03-01 21:52:39.384325,一共等待耗时为:0:00:00.009026
+ Sun01Mar2020215239  INFO basepage.py get_element [ line:69 ] 标页面_获取用户余额 : 查找 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素.
+ Sun01Mar2020215239  INFO basepage.py get_element_attribute [ line:130 ] 标页面_获取用户余额: 获取 ('xpath', '//input[@class="form-control invest-unit-investinput"]')  元素的属性 data-amount.
+ Sun01Mar2020215239  INFO basepage.py get_element_attribute [ line:140 ] 获取的属性值为: 907290099.74
+ Sun01Mar2020215239  INFO basepage.py wait_ele_visible [ line:33 ] 标页面_标当前剩余的可投余额 : 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素可见
+ Sun01Mar2020215239  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 21:52:39.396059,结束时间为:2020-03-01 21:52:39.415968,一共等待耗时为:0:00:00.019909
+ Sun01Mar2020215239  INFO basepage.py get_element [ line:69 ] 标页面_标当前剩余的可投余额 : 查找 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素.
+ Sun01Mar2020215239  INFO basepage.py get_element_text [ line:113 ] 标页面_标当前剩余的可投余额: 获取 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')  元素的文本内容.
+ Sun01Mar2020215239  INFO basepage.py get_element_text [ line:123 ] 获取的文本值为: 5
+ Sun01Mar2020215239  INFO basepage.py wait_ele_visible [ line:33 ] 标页面_输入框当中输入投资金额 : 等待 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素可见
+ Sun01Mar2020215239  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 21:52:39.433919,结束时间为:2020-03-01 21:52:39.450643,一共等待耗时为:0:00:00.016724
+ Sun01Mar2020215239  INFO basepage.py get_element [ line:69 ] 标页面_输入框当中输入投资金额 : 查找 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素.
+ Sun01Mar2020215239  INFO basepage.py input_text [ line:85 ] 标页面_输入框当中输入投资金额: 对 ('xpath', '//input[@class="form-control invest-unit-investinput"]') 元素输入文本 1000
+ Sun01Mar2020215239  INFO basepage.py wait_ele_visible [ line:33 ] 标页面_提交投资操作 : 等待 ('xpath', '// button[text() = "投标"]') 元素可见
+ Sun01Mar2020215239  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 21:52:39.507822,结束时间为:2020-03-01 21:52:39.527818,一共等待耗时为:0:00:00.019996
+ Sun01Mar2020215239  INFO basepage.py get_element [ line:69 ] 标页面_提交投资操作 : 查找 ('xpath', '// button[text() = "投标"]') 元素.
+ Sun01Mar2020215239  INFO basepage.py click_element [ line:99 ] 标页面_提交投资操作: 点击 ('xpath', '// button[text() = "投标"]') 元素 
+ Sun01Mar2020215239  INFO basepage.py wait_ele_visible [ line:33 ] 标页面_投资成功的提示框 - 点击查看并激活 : 等待 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 元素可见
+ Sun01Mar2020215240  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 21:52:39.602943,结束时间为:2020-03-01 21:52:40.129871,一共等待耗时为:0:00:00.526928
+ Sun01Mar2020215240  INFO basepage.py get_element [ line:69 ] 标页面_投资成功的提示框 - 点击查看并激活 : 查找 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 元素.
+ Sun01Mar2020215240  INFO basepage.py click_element [ line:99 ] 标页面_投资成功的提示框 - 点击查看并激活: 点击 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 元素 
+ Sun01Mar2020215319  INFO basepage.py wait_ele_visible [ line:33 ] 个人页面_获取用户余额 : 等待 ('xpath', '//li[@class="color_sub"]') 元素可见
+ Sun01Mar2020215319  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 21:53:19.688944,结束时间为:2020-03-01 21:53:19.709888,一共等待耗时为:0:00:00.020944
+ Sun01Mar2020215319  INFO basepage.py get_element [ line:69 ] 个人页面_获取用户余额 : 查找 ('xpath', '//li[@class="color_sub"]') 元素.
+ Sun01Mar2020215319  INFO basepage.py get_element_text [ line:113 ] 个人页面_获取用户余额: 获取 ('xpath', '//li[@class="color_sub"]')  元素的文本内容.
+ Sun01Mar2020215319  INFO basepage.py get_element_text [ line:123 ] 获取的文本值为: 907289099.74元
+ Sun01Mar2020215342  INFO basepage.py wait_ele_visible [ line:33 ] 标页面_标当前剩余的可投余额 : 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素可见
+ Sun01Mar2020215406  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 21:53:42.867399,结束时间为:2020-03-01 21:54:06.433042,一共等待耗时为:0:00:23.565643
+ Sun01Mar2020215406  INFO basepage.py get_element [ line:69 ] 标页面_标当前剩余的可投余额 : 查找 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素.
+ Sun01Mar2020215406  INFO basepage.py get_element_text [ line:113 ] 标页面_标当前剩余的可投余额: 获取 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')  元素的文本内容.
+ Sun01Mar2020215406  INFO basepage.py get_element_text [ line:123 ] 获取的文本值为: 4.87
+ Sun01Mar2020215408  INFO test_invest.py mysetup [ line:32 ] ----这是每个测试用例的后置----
+ Sun01Mar2020215408  INFO test_invest.py myclass [ line:38 ] ----这是测试用例类的后置----
+ Sun01Mar2020215408  INFO test_login.py myclass [ line:37 ] ----这是测试类级别的前置
+ Sun01Mar2020215408  INFO test_login.py mysetup [ line:31 ] ----这是每个测试用例的前置----
+ Sun01Mar2020215419  INFO test_login.py test_success_login [ line:62 ] 登录功能 - 正常场景用例：输入正确的用户名登录成功
+ Sun01Mar2020215419  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Sun01Mar2020215419  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 21:54:19.345361,结束时间为:2020-03-01 21:54:19.367302,一共等待耗时为:0:00:00.021941
+ Sun01Mar2020215419  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Sun01Mar2020215419  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Sun01Mar2020215419  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Sun01Mar2020215419  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 21:54:19.471024,结束时间为:2020-03-01 21:54:19.491968,一共等待耗时为:0:00:00.020944
+ Sun01Mar2020215419  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Sun01Mar2020215419  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Sun01Mar2020215419  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Sun01Mar2020215419  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 21:54:19.554800,结束时间为:2020-03-01 21:54:19.570758,一共等待耗时为:0:00:00.015958
+ Sun01Mar2020215419  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Sun01Mar2020215419  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Sun01Mar2020215443  INFO test_login.py mysetup [ line:33 ] ----这是每个测试用例的后置----
+ Sun01Mar2020215443  INFO test_login.py myclass [ line:39 ] ----这是测试类级别的后置

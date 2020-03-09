@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="LAPTOP-P36DDNUG" name="pytest" skipped="0" tests="1" time="35.656" timestamp="2020-03-01T22:11:09.118099"><testcase classname="TestCases.test_login.TestLogin" file="TestCases\test_login.py" line="59" name="test_success_login" time="35.508"><system-err> Sun01Mar2020221109  INFO test_login.py myclass [ line:37 ] ----这是测试类级别的前置
+ Sun01Mar2020221109  INFO test_login.py mysetup [ line:31 ] ----这是每个测试用例的前置----
+ Sun01Mar2020221120  INFO test_login.py test_success_login [ line:62 ] 登录功能 - 正常场景用例：输入正确的用户名登录成功
+ Sun01Mar2020221120  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_用户名输入 : 等待 (&apos;xpath&apos;, &apos;//input[@name=&quot;phone&quot;]&apos;) 元素可见
+ Sun01Mar2020221120  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 22:11:20.306681,结束时间为:2020-03-01 22:11:20.327599,一共等待耗时为:0:00:00.020918
+ Sun01Mar2020221120  INFO basepage.py get_element [ line:69 ] 登陆页面_用户名输入 : 查找 (&apos;xpath&apos;, &apos;//input[@name=&quot;phone&quot;]&apos;) 元素.
+ Sun01Mar2020221120  INFO basepage.py input_text [ line:85 ] 登陆页面_用户名输入: 对 (&apos;xpath&apos;, &apos;//input[@name=&quot;phone&quot;]&apos;) 元素输入文本 18684720553
+ Sun01Mar2020221120  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_密码输入 : 等待 (&apos;xpath&apos;, &apos;//input[@name=&quot;password&quot;]&apos;) 元素可见
+ Sun01Mar2020221120  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 22:11:20.424341,结束时间为:2020-03-01 22:11:20.446281,一共等待耗时为:0:00:00.021940
+ Sun01Mar2020221120  INFO basepage.py get_element [ line:69 ] 登陆页面_密码输入 : 查找 (&apos;xpath&apos;, &apos;//input[@name=&quot;password&quot;]&apos;) 元素.
+ Sun01Mar2020221120  INFO basepage.py input_text [ line:85 ] 登陆页面_密码输入: 对 (&apos;xpath&apos;, &apos;//input[@name=&quot;password&quot;]&apos;) 元素输入文本 python
+ Sun01Mar2020221120  INFO basepage.py wait_ele_visible [ line:33 ] 登陆页面_点击登陆按钮 : 等待 (&apos;tag name&apos;, &apos;button&apos;) 元素可见
+ Sun01Mar2020221120  INFO basepage.py wait_ele_visible [ line:47 ] 等待结束.开始时间为2020-03-01 22:11:20.508116,结束时间为:2020-03-01 22:11:20.524074,一共等待耗时为:0:00:00.015958
+ Sun01Mar2020221120  INFO basepage.py get_element [ line:69 ] 登陆页面_点击登陆按钮 : 查找 (&apos;tag name&apos;, &apos;button&apos;) 元素.
+ Sun01Mar2020221120  INFO basepage.py click_element [ line:99 ] 登陆页面_点击登陆按钮: 点击 (&apos;tag name&apos;, &apos;button&apos;) 元素 
+ Sun01Mar2020221144  INFO test_login.py mysetup [ line:33 ] ----这是每个测试用例的后置----
+ Sun01Mar2020221144  INFO test_login.py myclass [ line:39 ] ----这是测试类级别的后置
+</system-err></testcase></testsuite></testsuites>
